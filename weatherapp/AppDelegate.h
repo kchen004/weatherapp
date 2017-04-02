@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  weatherapp
+//  Weather App
 //
-//  Created by Kyle Chen on 3/31/17.
+//  Created by Kyle Chen on 3/4/17.
 //  Copyright © 2017 Kyle Chen. All rights reserved.
 //
 

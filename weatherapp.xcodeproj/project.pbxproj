@@ -15,6 +15,8 @@
 		E565BD3E1E8E9EDE00C1889B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E565BD3C1E8E9EDE00C1889B /* LaunchScreen.storyboard */; };
 		E565BD491E8E9EDF00C1889B /* weatherappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E565BD481E8E9EDF00C1889B /* weatherappTests.m */; };
 		E565BD541E8E9EDF00C1889B /* weatherappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E565BD531E8E9EDF00C1889B /* weatherappUITests.m */; };
+		E588F47B1E910B7E00A108BD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E588F47A1E910B7E00A108BD /* MapKit.framework */; };
+		E588F47D1E910B9400A108BD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E588F47C1E910B9400A108BD /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E565BD4F1E8E9EDF00C1889B /* weatherappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E565BD531E8E9EDF00C1889B /* weatherappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherappUITests.m; sourceTree = "<group>"; };
 		E565BD551E8E9EDF00C1889B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E588F47A1E910B7E00A108BD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E588F47C1E910B9400A108BD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E588F47D1E910B9400A108BD /* CoreLocation.framework in Frameworks */,
+				E588F47B1E910B7E00A108BD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,7 @@
 				E565BD471E8E9EDF00C1889B /* weatherappTests */,
 				E565BD521E8E9EDF00C1889B /* weatherappUITests */,
 				E565BD2C1E8E9EDE00C1889B /* Products */,
+				E588F4791E910B7E00A108BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +145,15 @@
 				E565BD551E8E9EDF00C1889B /* Info.plist */,
 			);
 			path = weatherappUITests;
+			sourceTree = "<group>";
+		};
+		E588F4791E910B7E00A108BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E588F47C1E910B9400A108BD /* CoreLocation.framework */,
+				E588F47A1E910B7E00A108BD /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -518,6 +534,7 @@
 				E565BD5A1E8E9EDF00C1889B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E565BD5B1E8E9EDF00C1889B /* Build configuration list for PBXNativeTarget "weatherappTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +543,7 @@
 				E565BD5D1E8E9EDF00C1889B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E565BD5E1E8E9EDF00C1889B /* Build configuration list for PBXNativeTarget "weatherappUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +552,7 @@
 				E565BD601E8E9EDF00C1889B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
